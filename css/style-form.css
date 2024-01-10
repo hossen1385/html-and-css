@@ -4,11 +4,11 @@
  box-sizing: border-box;
 }
 @font-face {
- font-family: form;
+ font-family: section-text;
  src: url(../font/Caveat/Caveat-VariableFont_wght.ttf);
 }
 @font-face {
- font-family: p;
+ font-family:text-form ;
  src: url(../font/Gruppo/Gruppo-Regular.ttf);
 }
 body{
@@ -21,12 +21,13 @@ body{
  background: rgb(58,107,180);
  background: linear-gradient(90deg, rgba(58, 107, 180, 0.43) 0%, rgba(17, 12, 61, 0.385) 49%, rgba(252, 69, 154, 0.343) 91%);
  margin: 50px auto;
+ height:515px;
 }
 .form-sing-in h1{
  color: yellow;
  font-size: 30px;
  text-align: center;
- font-family: form;
+ font-family: section-text;
  word-spacing: 2px;
  letter-spacing: 5px;
 }
@@ -36,9 +37,9 @@ body{
  text-align: center;
 color: white;
 padding-top: 20px;
-font-family: p;
+font-family: text-form;
 }
-.section{
+.section-form{
  height: 90px;
  border-bottom: 1px solid rgba(255, 255, 255, 0.466);
 }
@@ -89,7 +90,7 @@ span{
 }
 label{
  margin: 30px;
- font-family: p;
+ font-family: text-form;
  color: white;
  font-size: 15px;
 }
