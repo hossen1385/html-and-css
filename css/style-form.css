@@ -17,27 +17,26 @@ body{
 }
 .form-sing-in{
  width: 500px;
- height: 500px;
+ height: 515px;
+ margin: 50px auto;
  background: rgb(58,107,180);
  background: linear-gradient(90deg, rgba(58, 107, 180, 0.43) 0%, rgba(17, 12, 61, 0.385) 49%, rgba(252, 69, 154, 0.343) 91%);
- margin: 50px auto;
- height:515px;
 }
 .form-sing-in h1{
  color: yellow;
  font-size: 30px;
- text-align: center;
- font-family: section-text;
  word-spacing: 2px;
+ text-align: center;
  letter-spacing: 5px;
+ font-family: section-text;
 }
 .form-sing-in p{
+ color: white;
  font-size: 15px;
- word-break: break-all;
+ padding-top: 20px;
  text-align: center;
-color: white;
-padding-top: 20px;
-font-family: text-form;
+ word-break: break-all;
+ font-family: text-form;
 }
 .section-form{
  height: 90px;
@@ -46,74 +45,74 @@ font-family: text-form;
 #tel{
  width: 96px;
  height: 30px;
- background-color: rgba(0, 0, 0, 0.251);
- border: 1px solid yellow;
- margin: 10px 5px;
  padding:0 5px;
  color:white;
- font-family:sans-serif;
+ margin: 10px 6.5px;
  text-align: center;
+ font-family:sans-serif;
+ border: 1px solid yellow;
  transform: translateX(-12px);
+ background-color: rgba(0, 0, 0, 0.251);
 }
 #text{
  width: 150px;
  height: 25px;
- background-color: rgba(0, 0, 0, 0.251);
- border: 1px solid yellow;
- margin: 10px 5px;
  padding:0 5px;
  color:white;
+ font-size:13px;
+ margin: 10px 5px;
  font-family:sans-serif;
- font-size:13px ;
+ border: 1px solid yellow;
+ background-color: rgba(0, 0, 0, 0.251);
 }
 #email{
  width: 320px;
  height: 25px;
- background-color: rgba(0, 0, 0, 0.251) ;
- border: 1px solid yellow;
- margin: 10px 5px;
  padding: 0 5px;
  font-size:13px;
+ margin: 10px 5px;
+ border: 1px solid yellow;
+ background-color: rgba(0, 0, 0, 0.251) ;
 }
 select{
  width: 50px;
- color: white;
- background-color: rgba(0, 0, 0, 0.151);
- border: 1px solid yellow;
  height: 25px;
+ color: white;
  text-align: center;
- font-family: sans-serif;
  margin:  10px 140px;
+ font-family: sans-serif;
+ border: 1px solid yellow;
+ background-color: rgba(0, 0, 0, 0.151);
 }
 span{
  color: red;
 }
 label{
  margin: 30px;
- font-family: text-form;
  color: white;
  font-size: 15px;
+ font-family: text-form;
 }
 .total-1{
+ width: 170px;
  display: flex;
+ color: white;
  flex-direction: row;
  justify-content: center;
- color: white;
- width: 170px;
- background-color: rgba(0, 0, 0, 0.275);
- transform: translate(160px, 20px);
- border-bottom: 1px solid white;
  font-family: sans-serif;
+ border-bottom: 1px solid white;
+ transform: translate(160px, 20px);
+ background-color: rgba(0, 0, 0, 0.275);
 }
 .total-2{
+ width: 170px;
  display: flex;
+ color: white;
  flex-direction: row;
  justify-content: center;
- color: white;
- width: 170px;
- background-color: rgba(0, 0, 0, 0.275);
- transform: translate(160px, 20px);
  font-family: sans-serif;
+ transform: translate(160px, 20px);
+ background-color: rgba(0, 0, 0, 0.275);
 }
 h4{
  word-spacing: 50px;
@@ -125,13 +124,13 @@ h5{
  margin-left: 30px;
 }
 #submit{
- transform: translate(-160px , 150px);
  width: 150px;
  height: 40px;
- background-color: crimson;
- color: yellow;
  border: none;
+ color: yellow;
  border-radius: 5px;
- text-transform:uppercase;
  font-family: sans-serif;
+ text-transform:uppercase;
+ background-color: crimson;
+ transform: translate(-160px , 150px);
 }
